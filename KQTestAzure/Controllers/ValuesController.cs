@@ -21,7 +21,7 @@ namespace WebApplication2.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value-1";
+            return "value-a";
         }
 
         // POST api/values
